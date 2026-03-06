@@ -15,6 +15,7 @@ cd ..
 # 3. Collect Static Files
 # This moves the React build files into a place Django can serve them
 python manage.py collectstatic --no-input
+python manage.py shell -c "from discovery.services import sync_rising_artists; sync_rising_artists()"
 
 # 4. Run Database Migrations
 # This connects your models to your permanent Supabase DB
