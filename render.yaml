@@ -7,7 +7,7 @@ services:
     startCommand: "gunicorn AandR.wsgi:application"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.9.0 # Change to your version if different
+        value: 3.11.0 
       - key: DJANGO_SETTINGS_MODULE
         value: AandR.settings
       - key: DEBUG
