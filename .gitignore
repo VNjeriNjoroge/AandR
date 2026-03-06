@@ -1,0 +1,17 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+
+# Databases (Local)
+db.sqlite3
+
+# Environment & Secrets
+.env
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# OS files
+.DS_Store
